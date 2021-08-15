@@ -1,1 +1,1 @@
-# szumaster.github.io
+https://www.chroptown.pl/index.html
