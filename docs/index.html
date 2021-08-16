@@ -1,7 +1,6 @@
 <!DOCTYPE html 
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-	
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,6 @@
 	<meta name="Keywords" content="Minecraft, Mods, Modpack, Fabric, FabricMC" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="icon" href="images/icon_01.png">
-	
 	<title>MC-Projects</title>
 </head>
 <body>
@@ -54,23 +52,16 @@
 						<p class="naglowek_boczny"><center>Official release date</center> </p>
 							<center><p id="demo">
 								<script>
-								
 								var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
-
 								var x = setInterval(function() {
-
 								  var now = new Date().getTime();
-									
 								  var distance = countDownDate - now;
-									
 								  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 								  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 								  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 								  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-									
 								  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
 								  + minutes + "m " + seconds + "s ";
-									
 								  if (distance < 0) {
 									clearInterval(x);
 									document.getElementById("demo").innerHTML = "EXPIRED";
