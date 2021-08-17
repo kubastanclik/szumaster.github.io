@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7515510916911430" crossorigin="anonymous"></script>
 	<link rel="icon" href="images/icon_01.png">
+	<script src="img.js"></script>
 	<title>MC-Projects</title>
 </head>
 <body>
@@ -81,5 +82,13 @@
 			<p>Copyrights &copy; 2020-2021 SZUMASTER.</p>
 			<p class="link"><a href="http://github.com/szumaster"> &copy; Vanillavibe 2021 All right reserved.</a></p>
 		</div>
+		<script>
+			var getimage = document.querySelector('.panel_tresc').querySelectorAll('img')
+			for ( let x = 0; x < getimage.length; x++ ) {
+				getimage[x].addEventListener('click',function() {
+					initlb(getimage[x].src);
+				});
+				}
+		</script>
 	</body>
 </html>
